@@ -1,0 +1,5 @@
+package com.exceptionhandler.service;
+
+public interface EmployeeService {
+
+}

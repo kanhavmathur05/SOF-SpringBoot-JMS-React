@@ -1,0 +1,5 @@
+package com.jmsactivemq.consumer;
+
+public class Consumer {
+
+}

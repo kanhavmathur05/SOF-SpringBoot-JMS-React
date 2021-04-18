@@ -1,0 +1,5 @@
+package com.sbtransaction.service;
+
+public interface OrganizationService {
+
+}

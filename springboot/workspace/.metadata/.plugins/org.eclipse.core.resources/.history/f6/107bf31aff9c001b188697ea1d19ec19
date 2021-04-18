@@ -1,0 +1,5 @@
+package com.exceptionhandler.config;
+
+public class SwaggerConfiguration {
+
+}

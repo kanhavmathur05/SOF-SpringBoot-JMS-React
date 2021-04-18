@@ -1,0 +1,12 @@
+package com.exceptionhandler.service;
+
+import java.util.List;
+
+import com.exceptionhandler.model.Employee;
+
+public interface EmployeeService {
+	Employee addEmployee(Employee employee);
+	List<Employee> getEmployeeList();
+	Employee getEmployee(int id);
+	void deleteEmployee(int id);
+}

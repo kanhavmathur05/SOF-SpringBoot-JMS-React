@@ -1,0 +1,56 @@
+package com.ottbackend.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.ottbackend.model.Series;
+import com.ottbackend.services.SeriesService;
+
+@RestController
+public class SeriesController {
+
+	@Autowired
+	SeriesService seriesService;
+	
+	@GetMapping("/get-series/{id}")
+	public Series getSeriesInfo(@PathVariable int id)
+	{
+		return seriesService.getSeriesInfo(id);
+	}
+	
+	@PostMapping("/add-series")
+	public void addSeries(@RequestBody Series series)
+	{
+		seriesService.addSeries(series);;
+	}
+	
+	@GetMapping("/get-series-list")
+	public List<Series> getSeriesList() {
+		return seriesService.getSeriesList();
+	}
+	
+	@GetMapping("/search-series-list/{query}")
+	public List<Series> getSeriesList(@PathVariable String seriesName) {
+		return null;
+	}
+	
+	@PutMapping("/update-series-info")
+	public Series updateSeriesInfo(@RequestBody Series series)
+	{
+		return seriesService.updateSeries(series);
+	}
+	
+	@DeleteMapping("/delete-series/{id}")
+	public void deleteSeries(@PathVariable int id)
+	{
+		seriesService.deleteSeries(id);
+	}
+}

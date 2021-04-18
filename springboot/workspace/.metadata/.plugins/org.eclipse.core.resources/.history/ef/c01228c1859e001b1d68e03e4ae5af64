@@ -1,0 +1,7 @@
+package com.sbtransaction.dao;
+
+import com.sbtransaction.model.EmployeeHealthInsurance;
+
+public interface HealthInsuranceDao {
+	void registerEmployeeHealth(EmployeeHealthInsurance employeeHealthInsurance);
+}

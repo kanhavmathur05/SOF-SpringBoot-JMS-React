@@ -1,0 +1,38 @@
+package com.ott.model;
+
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "series")
+public class Series {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	
+	@Column(name = "total_episodes")
+	private int totalEpisodes;
+
+	@Column(name = "category")
+	private String category;
+	
+	@Column(name = "series_name")
+	private String seriesName;
+	
+	@Column(name = "series_description")
+	private String seriesDescription;
+	
+	@Column(name = "series_poster")
+	private String seriesPoster;
+	
+	@OneToMany
+	private List<Episode> episodeList;
+}

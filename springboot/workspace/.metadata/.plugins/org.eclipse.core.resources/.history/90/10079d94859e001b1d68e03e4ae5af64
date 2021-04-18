@@ -1,0 +1,18 @@
+package com.sbtransaction.service.impl;
+
+import com.sbtransaction.model.EmployeeHealthInsurance;
+import com.sbtransaction.service.HealthInsuranceService;
+
+public class HealthInsuranceServiceImpl implements HealthInsuranceService{
+
+	@Override
+	public void registerEmployeeHealthInsurance(EmployeeHealthInsurance employeeHealthInsurance) {
+		
+	}
+
+	@Override
+	public void deleteEmployeeHealthInsuranceById(String empId) {
+		
+	}
+
+}

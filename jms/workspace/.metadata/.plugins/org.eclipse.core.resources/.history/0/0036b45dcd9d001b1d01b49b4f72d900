@@ -1,0 +1,12 @@
+package com.jmsactivemq.dto;
+
+import java.io.Serializable;
+
+public class Employee implements Serializable{
+
+	private int id;
+	private String empName;
+	private String email;
+	private String password;
+	
+}

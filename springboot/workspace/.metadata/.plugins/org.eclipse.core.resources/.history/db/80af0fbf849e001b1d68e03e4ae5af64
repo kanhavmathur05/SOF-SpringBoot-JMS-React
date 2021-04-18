@@ -1,0 +1,7 @@
+package com.sbtransaction.service.impl;
+
+import com.sbtransaction.service.HealthInsuranceService;
+
+public class HealthInsuranceServiceImpl implements HealthInsuranceService{
+
+}

@@ -1,0 +1,20 @@
+package com.sbtransaction.dao.impl;
+
+import com.sbtransaction.dao.HealthInsuranceDao;
+import com.sbtransaction.model.EmployeeHealthInsurance;
+
+public class HealthInsuranceDaoImpl implements HealthInsuranceDao{
+
+	@Override
+	public void registerEmployeeHealthInsurance(EmployeeHealthInsurance employeeHealthInsurance) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteEmployeeHealthInsuranceById(String empId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

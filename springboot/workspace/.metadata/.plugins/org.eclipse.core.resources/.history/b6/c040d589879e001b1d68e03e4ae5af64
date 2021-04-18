@@ -1,0 +1,20 @@
+package com.sbtransaction.dao.impl;
+
+import com.sbtransaction.dao.EmployeeDao;
+import com.sbtransaction.model.Employee;
+
+public class EmployeeDaoImpl implements EmployeeDao{
+
+	@Override
+	public void insertEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteEmployeeById(String empId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

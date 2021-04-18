@@ -1,0 +1,21 @@
+package com.axis.service;
+
+import java.util.List;
+
+import com.axis.model.Product;
+
+public class IProductServiceImpl implements IProductService {
+
+	@Override
+	public List<Product> getAllProducts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product addProduct(Product product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

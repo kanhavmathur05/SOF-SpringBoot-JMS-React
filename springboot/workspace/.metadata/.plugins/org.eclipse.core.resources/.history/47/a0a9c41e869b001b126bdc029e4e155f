@@ -1,0 +1,43 @@
+package com.ott.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ott.model.Episode;
+import com.ott.repository.EpisodeRepository;
+
+@Service
+public class EpisodeServiceImpl implements EpisodeService {
+
+//	@Autowired
+	EpisodeRepository episodeRepository;
+
+	@Override
+	public Episode getEpisode(int id) {
+
+		return episodeRepository.findById(id).get();
+	}
+
+	@Override
+	public List<Episode> getEpisodeList() {
+		return episodeRepository.findAll();
+	}
+
+	@Override
+	public void addEpisode(Episode episode) {
+		episodeRepository.save(episode);
+	}
+
+	@Override
+	public void deleteEpisode(int id) {
+		episodeRepository.deleteById(id);
+	}
+
+	@Override
+	public void updateEpisodeInfo(Episode episode) {
+		episodeRepository.save(episode);
+	}
+
+}

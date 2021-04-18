@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.axis.secondapp&apos; to &apos;com.axis&apos;&#x0D;&#x0A;- Original project: &apos;second-app&apos;&#x0D;&#x0A;- Original element: &apos;second-app/src/main/java/com.axis.secondapp&apos;&#x0D;&#x0A;- Renamed element: &apos;second-app/src/main/java/com.axis&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.axis.secondapp&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.axis.secondapp" name="com.axis" qualified="false" references="true" stamp="1618210637003" textual="false" version="1.0"/>
+</session>

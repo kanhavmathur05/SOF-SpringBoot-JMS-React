@@ -1,0 +1,5 @@
+package com.exceptionhandler.model;
+
+public class Employee {
+
+}

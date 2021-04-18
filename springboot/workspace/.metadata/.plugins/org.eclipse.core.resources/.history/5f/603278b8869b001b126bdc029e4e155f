@@ -1,0 +1,45 @@
+package com.ottbackend.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.ottbackend.model.Episode;
+
+@RestController
+public class EpisodeController {
+
+	
+	@GetMapping("/get-episode-list")
+	public List<Episode> getEpisodeList() {
+		return null;
+	}
+	
+	@GetMapping("/get-episode/{id}")
+	public Episode getEpisode(@PathVariable int id)
+	{
+		return null;
+	}
+
+	@PostMapping("/add-episode")
+	public Episode addEpisode(@RequestBody Episode episode) {
+		return null;
+	}
+	
+	@PutMapping("/update-episode")
+	public Episode updateEpisode(@RequestBody Episode episode) {
+		return null;
+	}
+	
+	@DeleteMapping("/delete-episode/{id}")
+	public void deleteEpisode(@PathVariable int id)
+	{
+		
+	}
+}

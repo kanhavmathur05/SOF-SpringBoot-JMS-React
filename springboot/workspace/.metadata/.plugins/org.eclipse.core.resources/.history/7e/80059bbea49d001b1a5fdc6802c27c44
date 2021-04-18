@@ -1,0 +1,5 @@
+package com.resttemplateexample.controller;
+
+public class EmployeeRestController {
+
+}

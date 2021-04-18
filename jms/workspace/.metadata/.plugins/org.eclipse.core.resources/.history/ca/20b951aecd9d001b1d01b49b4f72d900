@@ -1,0 +1,5 @@
+package com.jmsactivemq.producer;
+
+public class Producer {
+
+}

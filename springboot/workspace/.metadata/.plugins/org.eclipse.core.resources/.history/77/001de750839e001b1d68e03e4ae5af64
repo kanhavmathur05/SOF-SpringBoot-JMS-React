@@ -1,0 +1,5 @@
+package com.sbtransaction.model;
+
+public class EmployeeHealthInsurance {
+
+}

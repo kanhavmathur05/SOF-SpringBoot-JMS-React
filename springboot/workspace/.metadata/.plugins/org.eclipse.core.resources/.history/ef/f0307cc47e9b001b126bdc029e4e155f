@@ -1,0 +1,27 @@
+package com.axis.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.axis.model.Product;
+import com.axis.repository.IProductRepository;
+
+public class IProductServiceImpl implements IProductService {
+
+	@Autowired
+	IProductRepository iProductRepository;
+	
+	@Override
+	public List<Product> getAllProducts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product addProduct(Product product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

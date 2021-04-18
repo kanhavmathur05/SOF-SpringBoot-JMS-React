@@ -1,0 +1,20 @@
+package com.sbtransaction.service.impl;
+
+import com.sbtransaction.model.Employee;
+import com.sbtransaction.service.EmployeeService;
+
+public class EmployeeServiceImpl implements EmployeeService{
+
+	@Override
+	public void insertEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteEmployeeById(String empId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

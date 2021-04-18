@@ -1,0 +1,8 @@
+package com.ott.services;
+
+import com.ott.model.User;
+
+public interface UserService {
+	public void registerUser(User user);
+	public User loginUser();
+}

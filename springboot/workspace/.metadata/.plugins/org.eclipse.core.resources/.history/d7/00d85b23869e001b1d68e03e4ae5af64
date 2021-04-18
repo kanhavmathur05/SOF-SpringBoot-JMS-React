@@ -1,0 +1,14 @@
+package com.sbtransaction.service.impl;
+
+import com.sbtransaction.model.Employee;
+import com.sbtransaction.model.EmployeeHealthInsurance;
+import com.sbtransaction.service.OrganizationService;
+
+public class OrganizationServiceImpl implements OrganizationService{
+
+	@Override
+	public void joinOrganization(Employee employee, EmployeeHealthInsurance employeeHealthInsurance) {
+		
+	}
+
+}

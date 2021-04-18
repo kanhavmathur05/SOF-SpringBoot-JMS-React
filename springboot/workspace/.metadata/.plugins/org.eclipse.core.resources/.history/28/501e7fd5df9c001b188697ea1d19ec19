@@ -1,0 +1,5 @@
+package com.exceptionhandler.repository;
+
+public interface EmployeeRepository {
+
+}

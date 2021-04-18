@@ -1,0 +1,7 @@
+package com.sbtransaction.service.impl;
+
+import com.sbtransaction.service.OrganizationService;
+
+public class OrganizationServiceImpl implements OrganizationService{
+
+}

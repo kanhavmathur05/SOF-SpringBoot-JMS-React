@@ -1,0 +1,7 @@
+package com.sbtransaction.dao.impl;
+
+import com.sbtransaction.dao.HealthInsuranceDao;
+
+public class HealthInsuranceDaoImpl implements HealthInsuranceDao{
+
+}

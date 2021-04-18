@@ -1,0 +1,5 @@
+package com.ott.enums;
+
+public enum SeriesCategory {
+Web_Series,Movie
+}
